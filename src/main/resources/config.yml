@@ -1,0 +1,4 @@
+maxCitiesPerPlayer: 3
+cityCreationCost: 1000
+warDeclarationCost: 500
+taxRate: 0.05

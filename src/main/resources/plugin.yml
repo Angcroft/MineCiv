@@ -1,0 +1,18 @@
+name: MineCiv
+version: 0.0.1
+main: com.angcroft.minecivplugin.minecivPlugin
+author: Angcroft
+commands:
+  createcity:
+    description: Create a new city.
+    usage: /createcity <name>
+  declarewar:
+    description: Declare war on another city.
+    usage: /declarewar <city_name>
+permissions:
+  civilizationplugin.createcity:
+    description: Allows a player to create a city.
+    default: true
+  civilizationplugin.declarewar:
+    description: Allows a player to declare war.
+    default: true
